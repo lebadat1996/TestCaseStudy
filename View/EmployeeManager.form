@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.EmployeeManager">
+  <grid id="27dc6" binding="EmployeeManager" layout-manager="GridLayoutManager" row-count="11" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="17" y="59" width="542" height="464"/>
+    </constraints>
+    <properties>
+      <background color="-4475360"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ead14" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-15727551"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="ba9fd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-15727551"/>
+          <text value="Age"/>
+        </properties>
+      </component>
+      <component id="c18f2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-15727551"/>
+          <text value="Address"/>
+        </properties>
+      </component>
+      <component id="9f3cd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-15727551"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="7069" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-15727551"/>
+          <text value="Phone Number"/>
+        </properties>
+      </component>
+      <component id="e0935" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-15727551"/>
+          <text value="Salary"/>
+        </properties>
+      </component>
+      <component id="bcb35" class="javax.swing.JTextField" binding="txtName">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <toolTipText value="Enter Name"/>
+        </properties>
+      </component>
+      <component id="ef5a8" class="javax.swing.JTextField" binding="txtAge">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <toolTipText value="Enter Age"/>
+        </properties>
+      </component>
+      <component id="3dc24" class="javax.swing.JTextField" binding="txtAddress">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <toolTipText value="Enter Address"/>
+        </properties>
+      </component>
+      <component id="75255" class="javax.swing.JTextField" binding="txtEmail">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value=""/>
+          <toolTipText value="abc@gmail.com"/>
+        </properties>
+      </component>
+      <component id="a4aa6" class="javax.swing.JTextField" binding="txtPhoneNumber">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <toolTipText value="84+09xxxxxxxx"/>
+        </properties>
+      </component>
+      <component id="18cfe" class="javax.swing.JTextField" binding="txtSalary">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <toolTipText value="enter Salary"/>
+        </properties>
+      </component>
+      <grid id="5602d" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="10" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2e6c0" class="javax.swing.JButton" binding="txtAdd">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15727551"/>
+              <foreground color="-16401574"/>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="dff4a" class="javax.swing.JButton" binding="txtDisPlay">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15727551"/>
+              <foreground color="-4889925"/>
+              <text value="DisPlay"/>
+            </properties>
+          </component>
+          <component id="589e9" class="javax.swing.JButton" binding="txtEdit">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15727551"/>
+              <foreground color="-4508893"/>
+              <text value="Edit"/>
+            </properties>
+          </component>
+          <component id="cf946" class="javax.swing.JButton" binding="txtDeletes">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14794474"/>
+              <foreground color="-14238801"/>
+              <text value="Deletes"/>
+            </properties>
+          </component>
+          <component id="2d9d0" class="javax.swing.JButton" binding="txtSave">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15727551"/>
+              <foreground color="-4475360"/>
+              <text value="Save"/>
+            </properties>
+          </component>
+          <component id="1cf91" class="javax.swing.JButton" binding="txtReset">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15727551"/>
+              <foreground color="-4519339"/>
+              <text value="Reset"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="d4834" binding="jTable1">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="10" vsize-policy="7" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <font size="14" style="1"/>
+          <foreground color="-4475360"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a490b" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <font size="14" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="6a692" class="javax.swing.JRadioButton" binding="txtMale">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12566263"/>
+          <foreground color="-16401574"/>
+          <text value="Male"/>
+        </properties>
+      </component>
+      <component id="513c7" class="javax.swing.JRadioButton" binding="txtFemale">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12566263"/>
+          <foreground color="-4519339"/>
+          <text value="Female"/>
+        </properties>
+      </component>
+      <component id="f8ab7" class="javax.swing.JRadioButton" binding="btnOther">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4475360"/>
+          <foreground color="-15727551"/>
+          <text value="Other"/>
+        </properties>
+      </component>
+      <component id="e3f31" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-15727551"/>
+          <text value="Date of Birth"/>
+        </properties>
+      </component>
+      <component id="2c4e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <foreground color="-15727551"/>
+          <text value="Gender"/>
+        </properties>
+      </component>
+      <component id="4316a" class="javax.swing.JTextField" binding="txtDoB">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value=""/>
+          <toolTipText value="dd/mm/yyyy"/>
+        </properties>
+      </component>
+      <component id="68704" class="javax.swing.JTextField" binding="txtSearch">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+        </properties>
+      </component>
+      <component id="c7964" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15727551"/>
+          <font size="14" style="1"/>
+          <foreground color="-4508893"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
